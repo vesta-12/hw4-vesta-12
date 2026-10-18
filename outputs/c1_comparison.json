@@ -1,0 +1,297 @@
+[
+  {
+    "id": "Q-01",
+    "original_tool_calls": 7,
+    "vague_tool_calls": 5,
+    "original_api_rounds": 4,
+    "vague_api_rounds": 3,
+    "original_answer": "Ossbridge | 4.6",
+    "vague_answer": "Ossbridge | 4.6",
+    "original_tool_inputs": [
+      {
+        "entity": "Ossbridge",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Ossbridge",
+        "field": "area_km2"
+      },
+      {
+        "entity": "Ossford",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Ossford",
+        "field": "area_km2"
+      },
+      {
+        "expression": "52904 / 1284.6"
+      },
+      {
+        "expression": "30982 / 846.2"
+      },
+      {
+        "expression": "52904 / 1284.6 - 30982 / 846.2"
+      }
+    ],
+    "vague_tool_inputs": [
+      {
+        "entity": "Ossbridge",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Ossbridge",
+        "field": "area_km2"
+      },
+      {
+        "entity": "Ossford",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Ossford",
+        "field": "area_km2"
+      },
+      {
+        "expression": "52904 / 1284.6 - 30982 / 846.2"
+      }
+    ],
+    "original_correct": true,
+    "vague_correct": true
+  },
+  {
+    "id": "Q-03",
+    "original_tool_calls": 7,
+    "vague_tool_calls": 7,
+    "original_api_rounds": 4,
+    "vague_api_rounds": 4,
+    "original_answer": "Lindenmoor | 5.3",
+    "vague_answer": "Lindenmoor | 5.3",
+    "original_tool_inputs": [
+      {
+        "entity": "Lindenmoor",
+        "field": "household_water_2025_megalitres"
+      },
+      {
+        "entity": "Lindenmoor",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Kelmarsh",
+        "field": "household_water_2025_megalitres"
+      },
+      {
+        "entity": "Kelmarsh",
+        "field": "population_2025"
+      },
+      {
+        "expression": "2151.4*1000000/(29051*365)"
+      },
+      {
+        "expression": "1739.0*1000000/(24117*365)"
+      },
+      {
+        "expression": "202.89306995774555-197.55291129260834"
+      }
+    ],
+    "vague_tool_inputs": [
+      {
+        "entity": "Lindenmoor",
+        "field": "household_water_2025_megalitres"
+      },
+      {
+        "entity": "Lindenmoor",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Kelmarsh",
+        "field": "household_water_2025_megalitres"
+      },
+      {
+        "entity": "Kelmarsh",
+        "field": "population_2025"
+      },
+      {
+        "expression": "2151.4 * 1000000 / 29051 / 365"
+      },
+      {
+        "expression": "1739.0 * 1000000 / 24117 / 365"
+      },
+      {
+        "expression": "2151.4 * 1000000 / 29051 / 365 - 1739.0 * 1000000 / 24117 / 365"
+      }
+    ],
+    "original_correct": true,
+    "vague_correct": true
+  },
+  {
+    "id": "Q-09",
+    "original_tool_calls": 5,
+    "vague_tool_calls": 5,
+    "original_api_rounds": 3,
+    "vague_api_rounds": 3,
+    "original_answer": "Brightwater | 0.6",
+    "vague_answer": "Millbrook | 0.6",
+    "original_tool_inputs": [
+      {
+        "entity": "Brightwater",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Brightwater",
+        "field": "area_km2"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "area_km2"
+      },
+      {
+        "expression": "44675 / 921.4 - 37203 / 758.6"
+      }
+    ],
+    "vague_tool_inputs": [
+      {
+        "entity": "Brightwater",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Brightwater",
+        "field": "area_km2"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "area_km2"
+      },
+      {
+        "expression": "44675 / 921.4 - 37203 / 758.6"
+      }
+    ],
+    "original_correct": false,
+    "vague_correct": true
+  },
+  {
+    "id": "Q-13",
+    "original_tool_calls": 9,
+    "vague_tool_calls": 9,
+    "original_api_rounds": 3,
+    "vague_api_rounds": 3,
+    "original_answer": "Coldharbour | 4.16",
+    "vague_answer": "Coldharbour | 4.16",
+    "original_tool_inputs": [
+      {
+        "entity": "Ossford",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Ossford",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Stonecairn",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Stonecairn",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Coldharbour",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Coldharbour",
+        "field": "population_2025"
+      },
+      {
+        "expression": "(31560 - 30982) / 31560 * 100"
+      },
+      {
+        "expression": "(15473 - 14926) / 15473 * 100"
+      },
+      {
+        "expression": "(11902 - 11407) / 11902 * 100"
+      }
+    ],
+    "vague_tool_inputs": [
+      {
+        "entity": "Ossford",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Ossford",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Stonecairn",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Stonecairn",
+        "field": "population_2025"
+      },
+      {
+        "entity": "Coldharbour",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Coldharbour",
+        "field": "population_2025"
+      },
+      {
+        "expression": "(31560 - 30982) / 31560 * 100"
+      },
+      {
+        "expression": "(15473 - 14926) / 15473 * 100"
+      },
+      {
+        "expression": "(11902 - 11407) / 11902 * 100"
+      }
+    ],
+    "original_correct": true,
+    "vague_correct": true
+  },
+  {
+    "id": "Q-18",
+    "original_tool_calls": 3,
+    "vague_tool_calls": 3,
+    "original_api_rounds": 3,
+    "vague_api_rounds": 3,
+    "original_answer": "yes | 40013",
+    "vague_answer": "yes | 40013",
+    "original_tool_inputs": [
+      {
+        "entity": "Millbrook",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "population_2025"
+      },
+      {
+        "expression": "37203 * (37203 / 34590)"
+      }
+    ],
+    "vague_tool_inputs": [
+      {
+        "entity": "Millbrook",
+        "field": "population_2020"
+      },
+      {
+        "entity": "Millbrook",
+        "field": "population_2025"
+      },
+      {
+        "expression": "37203 * (37203 / 34590)"
+      }
+    ],
+    "original_correct": true,
+    "vague_correct": true
+  }
+]

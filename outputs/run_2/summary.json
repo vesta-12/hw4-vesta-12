@@ -1,0 +1,157 @@
+{
+  "run": "run_2",
+  "strategies": {
+    "S1": {
+      "n_questions": 20,
+      "correct": 12,
+      "unanswered": 2,
+      "input_tokens": 44580,
+      "output_tokens": 1801,
+      "median_seconds_per_question": 1.5553,
+      "total_seconds": 31.0077,
+      "estimated_cost_usd": 0.0110772
+    },
+    "S2": {
+      "n_questions": 20,
+      "correct": 16,
+      "unanswered": 0,
+      "input_tokens": 223700,
+      "output_tokens": 14298,
+      "median_seconds_per_question": 9.6546,
+      "total_seconds": 193.0389,
+      "estimated_cost_usd": 0.0618976
+    },
+    "S3": {
+      "n_questions": 20,
+      "correct": 19,
+      "unanswered": 0,
+      "input_tokens": 60187,
+      "output_tokens": 4395,
+      "median_seconds_per_question": 4.9422,
+      "total_seconds": 100.0584,
+      "estimated_cost_usd": 0.0173114
+    }
+  },
+  "per_question": [
+    {
+      "Question": "Q-01",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-02",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-03",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-04",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-05",
+      "S1": "✗",
+      "S2": "✗",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-06",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-07",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-08",
+      "S1": "✗",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-09",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-10",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-11",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✗"
+    },
+    {
+      "Question": "Q-12",
+      "S1": "✓",
+      "S2": "✗",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-13",
+      "S1": "✗",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-14",
+      "S1": "✗",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-15",
+      "S1": "✗",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-16",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-17",
+      "S1": "✗",
+      "S2": "✗",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-18",
+      "S1": "✓",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-19",
+      "S1": "✗",
+      "S2": "✓",
+      "S3": "✓"
+    },
+    {
+      "Question": "Q-20",
+      "S1": "✗",
+      "S2": "✗",
+      "S3": "✓"
+    }
+  ]
+}

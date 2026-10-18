@@ -1,0 +1,41 @@
+{
+  "S1": {
+    "suggested_case_for_C2": {
+      "path": "outputs/run_2/S1/Q-17.json",
+      "run": 2,
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 891",
+      "correct": false,
+      "cost_usd": 0.0006282,
+      "rounds": null,
+      "tool_calls": null
+    },
+    "has_wrong_answer": true
+  },
+  "S2": {
+    "suggested_case_for_C2": {
+      "path": "outputs/run_1/S2/Q-17.json",
+      "run": 1,
+      "question_id": "Q-17",
+      "answer": "Harrowfield | 891",
+      "correct": false,
+      "cost_usd": 0.0037934,
+      "rounds": null,
+      "tool_calls": null
+    },
+    "has_wrong_answer": true
+  },
+  "S3": {
+    "suggested_case_for_C2": {
+      "path": "outputs/run_1/S3/Q-20.json",
+      "run": 1,
+      "question_id": "Q-20",
+      "answer": "Harrowfield | 2103",
+      "correct": false,
+      "cost_usd": 0.0009622,
+      "rounds": 3,
+      "tool_calls": 10
+    },
+    "has_wrong_answer": true
+  }
+}

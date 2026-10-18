@@ -1,0 +1,9 @@
+{
+  "measured_at_utc": "2026-10-18T18:00:12.469402+00:00",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "none",
+  "without_tools_prompt_tokens": 149,
+  "with_two_tools_prompt_tokens": 555,
+  "two_tools_added_input_tokens_per_request": 406,
+  "measurement_method": "Two live Chat Completions calls with otherwise identical messages; one has no tools, the other has the two S3 schemas and tool_choice=auto."
+}

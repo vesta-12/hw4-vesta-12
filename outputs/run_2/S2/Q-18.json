@@ -1,0 +1,107 @@
+{
+  "strategy": "S2",
+  "question_id": "Q-18",
+  "question": "If Millbrook's population grows by the same percentage from 2025 to 2030 as it did from 2020 to 2025, will it exceed 40,000 residents in 2030? Give the projected 2030 population.",
+  "model": "gpt-5.6-luna",
+  "reasoning_effort": "none",
+  "temperature": 0.7,
+  "documents_in_prompt": true,
+  "samples_requested": 5,
+  "started_at_utc": "2026-10-18T17:34:57.522931+00:00",
+  "status": "answered",
+  "answer": "yes | 40014",
+  "api_calls": [
+    {
+      "response": "Millbrook’s population growth from 2020 to 2025:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n=\\frac{2,613}{34,590}\\times 100\n\\]\n\nApplying the same growth factor to 2030:\n\n\\[\n37,203\\times\\frac{37,203}{34,590}\n=40,013.735\\ldots\n\\]\n\nRounded to 0 decimal places, the projected 2030 population is **40,014**, which exceeds 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "number": 40014.0,
+        "raw_number": "40014"
+      },
+      "seconds": 2.491994,
+      "input_tokens": 2254,
+      "output_tokens": 128,
+      "cached_input_tokens": 2251,
+      "finish_reason": "stop",
+      "sample_number": 1
+    },
+    {
+      "response": "Millbrook’s population growth from 2020 to 2025:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n= \\frac{2,613}{34,590}\\times 100\n\\approx 7.5536\\%\n\\]\n\nProjected 2030 population:\n\n\\[\n37,203 \\times \\left(1+\\frac{2,613}{34,590}\\right)\n= 37,203 \\times \\frac{37,203}{34,590}\n\\approx 40,013.87\n\\]\n\nRounded to 0 decimal places: **40,014 residents**. This exceeds 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "number": 40014.0,
+        "raw_number": "40014"
+      },
+      "seconds": 2.120373,
+      "input_tokens": 2254,
+      "output_tokens": 152,
+      "cached_input_tokens": 2251,
+      "finish_reason": "stop",
+      "sample_number": 2
+    },
+    {
+      "response": "Millbrook’s population growth factor from 2020 to 2025:\n\n\\[\n\\frac{37,203}{34,590}=1.0755426424\\ldots\n\\]\n\nProjected 2030 population:\n\n\\[\n37,203 \\times 1.0755426424\\ldots\n= 40,012.2\\ldots\n\\]\n\nRounded to 0 decimal places:\n\n\\[\n40,012\n\\]\n\nSince 40,012 exceeds 40,000, the answer is yes.\n\nANSWER: yes | 40,012",
+      "parsed": null,
+      "seconds": 2.130438,
+      "input_tokens": 2254,
+      "output_tokens": 119,
+      "cached_input_tokens": 2251,
+      "finish_reason": "stop",
+      "sample_number": 3
+    },
+    {
+      "response": "Millbrook’s population growth from 2020 to 2025:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times 100\n=\\frac{2,613}{34,590}\\times 100\n\\]\n\nApplying the same growth factor to 2030:\n\n\\[\n37,203\\times\\frac{37,203}{34,590}\n=40,012.7285\\ldots\n\\]\n\nRounded to 0 decimal places, the projected 2030 population is **40,013**, which exceeds 40,000.\n\nANSWER: yes | 40013",
+      "parsed": {
+        "name": "yes",
+        "number": 40013.0,
+        "raw_number": "40013"
+      },
+      "seconds": 1.813631,
+      "input_tokens": 2254,
+      "output_tokens": 129,
+      "cached_input_tokens": 2251,
+      "finish_reason": "stop",
+      "sample_number": 4
+    },
+    {
+      "response": "Millbrook’s population growth from 2020 to 2025:\n\n\\[\n\\frac{37,203-34,590}{34,590}\\times100\n=\\frac{2,613}{34,590}\\times100\n\\approx 7.5536\\%\n\\]\n\nProjected 2030 population:\n\n\\[\n37,203\\times\\left(1+\\frac{2,613}{34,590}\\right)\n=37,203\\times\\frac{37,203}{34,590}\n\\approx 40,013.86\n\\]\n\nRounded to 0 decimal places: **40,014 residents**. This exceeds 40,000.\n\nANSWER: yes | 40014",
+      "parsed": {
+        "name": "yes",
+        "number": 40014.0,
+        "raw_number": "40014"
+      },
+      "seconds": 2.529936,
+      "input_tokens": 2254,
+      "output_tokens": 148,
+      "cached_input_tokens": 2251,
+      "finish_reason": "stop",
+      "sample_number": 5
+    }
+  ],
+  "input_tokens": 11270,
+  "output_tokens": 676,
+  "total_seconds": 11.086697,
+  "prompt_messages": [
+    {
+      "role": "system",
+      "content": "You answer quantitative questions using the Nine Rivers Region documents below. Use current 2025 profiles, not ARCHIVED profiles. Correction notices override old values. Keep units consistent and perform arithmetic carefully, without rounding intermediate values. Use only the provided documents. End with exactly one line: ANSWER: <name or yes/no> | <number>. Do not include any other ANSWER lines."
+    },
+    {
+      "role": "user",
+      "content": "DOCUMENTS:\n[NR-00] The Nine Rivers Region - about these profiles\nThe Nine Rivers Region is a fictional region made up for this homework. It has twelve districts: Ossbridge, Ossford, Tarnvale, Kelmarsh, Brightwater, Stonecairn, Harrowfield, Lindenmoor, Redfen, Ashgrove, Millbrook, Coldharbour. Each district has one profile. Unless a figure says otherwise, population is from the 2025 census, budgets are for the 2025 fiscal year, and water use is household water use over calendar year 2025. Profiles marked ARCHIVED were published in 2019, are kept for reference only, and have been superseded. Corrections to published profiles are issued as separate notices and take precedence over the profile they correct.\n[NR-01] Ossbridge district profile (2025)\nFounded in 1871 on the Oss, Ossbridge covers 1,284.6 square kilometres. Its budget for 2025 was set at 9,284.5 million tenge. Household water use in 2025 came to 3,862 megalitres. There are 21 schools in the district, attended by 7,413 pupils in 2025/26. The 2025 census recorded 52,904 residents; the 2020 census had recorded 48,317. The district's paved road network is 612.4 km long.\n[NR-02] Ossford district profile (2025)\nOssford has 14 schools, which enrolled 4,390 pupils for the 2025/26 school year. The district, founded in 1903, stretches along the Oss over 846.2 square kilometres and keeps 388.9 km of paved road. Census population: 31,560 in 2020 and 30,982 in 2025. Households used 2,418 megalitres of water during 2025, and the district's 2025 budget amounted to 5,117.8 million tenge.\n[NR-03] Tarnvale district profile (2025)\nTarnvale lies on the Tarn and was founded in 1854. The 2025 census counted 71,388 residents, up from 67,214 at the 2020 census, on an area of 2,106.9 square kilometres. The district runs 29 schools with 10,652 pupils enrolled in the 2025/26 school year. Its 2025 budget was 12,960.3 million tenge, and it maintains 944.7 km of paved road. Households used 5,207 megalitres of water in 2025.\n[NR-04] Kelmarsh district profile (2025)\nFounded in 1926 on the Kel, Kelmarsh covers 593.8 square kilometres. Its budget for 2025 was set at 3,906.2 million tenge. Household water use in 2025 came to 1,739 megalitres. There are 11 schools in the district, attended by 3,268 pupils in 2025/26. The 2025 census recorded 24,117 residents; the 2020 census had recorded 22,845. The district's paved road network is 271.5 km long.\n[NR-05] Brightwater district profile (2025)\nBrightwater has 17 schools, which enrolled 6,241 pupils for the 2025/26 school year. The district, founded in 1889, stretches along the Bright over 912.4 square kilometres and keeps 455.0 km of paved road. Census population: 39,902 in 2020 and 44,675 in 2025. Households used 3,315 megalitres of water during 2025, and the district's 2025 budget amounted to 7,733.9 million tenge.\n[NR-06] Stonecairn district profile (2025)\nStonecairn lies on the Cairn Water and was founded in 1837. The 2025 census counted 14,926 residents, up from 15,473 at the 2020 census, on an area of 1,742.3 square kilometres. The district runs 9 schools with 2,017 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,884.6 million tenge, and it maintains 506.8 km of paved road. Households used 1,062 megalitres of water in 2025.\n[NR-07] Harrowfield district profile (2025)\nFounded in 1862 on the Harrow, Harrowfield covers 1,388.5 square kilometres. Its budget for 2025 was set at 16,021.7 million tenge. Household water use in 2025 came to 7,146 megalitres. There are 36 schools in the district, attended by 13,904 pupils in 2025/26. The 2025 census recorded 90,212 residents; the 2020 census had recorded 83,609. The district's paved road network is 1,037.2 km long.\n[NR-08] Lindenmoor district profile (2025)\nLindenmoor has 13 schools, which enrolled 4,115 pupils for the 2025/26 school year. The district, founded in 1911, stretches along the Linden over 1,015.7 square kilometres and keeps 402.3 km of paved road. Census population: 27,736 in 2020 and 29,051 in 2025. Households used 2,151,400 cubic metres of water during 2025, and the district's 2025 budget amounted to 4,870.4 million tenge.\n[NR-09] Redfen district profile (2025)\nRedfen lies on the Red Fen drain and was founded in 1932. The 2025 census counted 20,934 residents, up from 19,288 at the 2020 census, on an area of 677.1 square kilometres. The district runs 10 schools with 3,147 pupils enrolled in the 2025/26 school year. Its 2025 budget was 3,512.0 million tenge, and it maintains 244.6 km of paved road. Households used 1,488 megalitres of water in 2025.\n[NR-10] Ashgrove district profile (2025)\nFounded in 1878 on the Ash, Ashgrove covers 1,519.2 square kilometres. Its budget for 2025 was set at 10,488.1 million tenge. Household water use in 2025 came to 4,390 megalitres. There are 24 schools in the district, attended by 8,837 pupils in 2025/26. The 2025 census recorded 58,760 residents; the 2020 census had recorded 56,041. The district's paved road network is 733.9 km long.\n[NR-11] Millbrook district profile (2025)\nMillbrook has 15 schools, which enrolled 5,562 pupils for the 2025/26 school year. The district, founded in 1897, stretches along the Mill Brook over 758.6 square kilometres and keeps 360.1 km of paved road. Census population: 34,590 in 2020 and 37,203 in 2025. Households used 2,806 megalitres of water during 2025, and the district's 2025 budget amounted to 6,305.7 million tenge.\n[NR-12] Coldharbour district profile (2025)\nColdharbour lies on the Cold and was founded in 1845. The 2025 census counted 11,407 residents, up from 11,902 at the 2020 census, on an area of 2,318.0 square kilometres. The district runs 8 schools with 1,611 pupils enrolled in the 2025/26 school year. Its 2025 budget was 2,366.9 million tenge, and it maintains 598.3 km of paved road. Households used 804 megalitres of water in 2025.\n[NR-13] Tarnvale district profile (ARCHIVED 2019)\nARCHIVED - superseded by the 2025 profile. Tarnvale lies on the Tarn and was founded in 1854. The 2019 estimate put the population at 65,030 residents on 2,106.9 square kilometres. Households used 4,980 megalitres of water in 2018. The district ran 27 schools with 9,870 pupils.\n[NR-14] Kelmarsh district profile (ARCHIVED 2019)\nARCHIVED - superseded by the 2025 profile. Kelmarsh, founded in 1926 on the Kel, had an estimated 22,110 residents in 2019 on 593.8 square kilometres. It ran 10 schools with 2,944 pupils, and households used 1,652 megalitres of water in 2018.\n[NR-15] Household water tariff\nFrom 1 January 2025 the regional household water tariff is 142.35 tenge per cubic metre, in every district. The 2024 tariff was 131.80 tenge per cubic metre. One megalitre is 1,000 cubic metres. The tariff is charged on household use only.\n[NR-16] Correction notice - Brightwater\nCorrection: the 2025 Brightwater district profile gives the district's area as 912.4 square kilometres. This is a transposition error. The correct area is 921.4 square kilometres. All other figures in that profile are correct.\n\nQUESTION:\nIf Millbrook's population grows by the same percentage from 2025 to 2030 as it did from 2020 to 2025, will it exceed 40,000 residents in 2030? Give the projected 2030 population.\nRound the final number to 0 decimal place(s). Show your calculation steps before the answer. End with: ANSWER: <name or yes/no> | <number>"
+    }
+  ],
+  "vote_counts": {
+    "yes | 40014": 3,
+    "yes | 40013": 1
+  },
+  "vote_tie": false,
+  "grading": {
+    "correct": true,
+    "expected_name": "yes",
+    "expected_value": 40013,
+    "decimals": 0,
+    "allowed_absolute_difference": 1
+  },
+  "estimated_cost_usd": 0.0030652
+}
